@@ -45,7 +45,7 @@ Follow these steps to set up the project on your local machine:
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/anandmindfire/leetcode.git
+ https://github.com/anandmindfire/Leetcode-Opensource.git
 ```
 2. **Add all the .env variables**
 - Make sure to update the values (like API keys, Mongo URI, etc.) inside both .env files according to .env.txt file local setup or environment.
