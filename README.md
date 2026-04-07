@@ -1,7 +1,5 @@
 # Leetcode Opensource – Competitive Programming Platform
 
-**Live Link:** 
-
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
@@ -62,7 +60,7 @@ npm run dev
 The application will be accessible at http://localhost:3000.
 
 ## API Documentation
- For API documentation [**click here**](https://github.com/anandmindfire/Leetcode-Clone/blob/main/src/app/api/readme.md)
+ For API documentation [**click here**](https://github.com/anandmindfire/Leetcode-Opensource/tree/main/src/app/api)
 
 ## Usage
 
