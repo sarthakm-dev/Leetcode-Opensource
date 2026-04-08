@@ -13,7 +13,8 @@ export const connectToDb = async (): Promise<void> => {
     }
 
     try {
-        const db = await mongoose.connect(process.env.MONGODB_URL || '', {
+        
+        const db = await mongoose.connect(process.env.MONGODB_URI || '', {
             dbName: process.env.DB_NAME
         });
 
@@ -22,6 +23,6 @@ export const connectToDb = async (): Promise<void> => {
         console.log("Db connected successfully");
     } catch (error) {
         console.log("Databse connection faild: ", error);
-        process.exit(1);
+         process.exit(1);
     }
 }
