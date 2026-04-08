@@ -1,7 +1,5 @@
 # Leetcode Opensource – Competitive Programming Platform
 
-**Live Link:** 
-
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
@@ -47,7 +45,7 @@ Follow these steps to set up the project on your local machine:
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/anandmindfire/leetcode.git
+ https://github.com/anandmindfire/Leetcode-Opensource.git
 ```
 2. **Add all the .env variables**
 - Make sure to update the values (like API keys, Mongo URI, etc.) inside both .env files according to .env.txt file local setup or environment.
@@ -62,7 +60,7 @@ npm run dev
 The application will be accessible at http://localhost:3000.
 
 ## API Documentation
- For API documentation [**click here**](https://github.com/anandmindfire/Leetcode-Clone/blob/main/src/app/api/readme.md)
+ For API documentation [**click here**](https://github.com/anandmindfire/Leetcode-Opensource/tree/main/src/app/api)
 
 ## Usage
 
