@@ -145,7 +145,12 @@ export default function ProblemPageCodeEditor({ theme, selectedLanguage, setSele
                 language={coddingLanguages[selectedLanguage as coddingLanguagesType].compilorId}
                 value={sourceCode}
                 onChange={(value) => setSourceCode(value ?? "")}
-                theme='vs-light'
+                //theme='vs-light'(given bug)
+
+                /*But theme maps accordingly user chnage theme
+                Fixed theme bug of editor*/
+                theme={theme === "dark" ? "vs-dark" : "vs-light"}
+                
                 options={{
                     automaticLayout: true,
                     minimap: { enabled: false },
