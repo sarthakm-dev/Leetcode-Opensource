@@ -106,19 +106,13 @@ export async function POST(req: NextRequest) {
         }
 
 
-        /*PREVIOUSLY
-          user.submissions.push(newSubmission._id);
+       
+        user.submissions.push(newSubmission._id);
         user.solvedQuestions.push(problemId);
         user.solvedProblems = user.solvedProblems + 1;
-        await user.save(); */
+        await user.save(); 
         
-        //if submission actually aceeppted upto last test case 
-        if (currentStatus === "Accepted") {
-            if (!user.solvedProblemsList.includes(problemId)) {
-                user.solvedProblemsList.push(problemId);
-                user.solvedProblems = user.solvedProblems + 1;
-            }
-        }
+       
         await user.save();
 
         return NextResponse.json({
