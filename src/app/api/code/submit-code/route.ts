@@ -112,8 +112,7 @@ export async function POST(req: NextRequest) {
         user.solvedProblems = user.solvedProblems + 1;
         await user.save(); 
         
-       
-        await user.save();
+ 
 
         return NextResponse.json({
             success: true,
